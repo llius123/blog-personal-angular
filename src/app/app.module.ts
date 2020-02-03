@@ -11,6 +11,10 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { MarkdownModule, MarkedOptions, MarkedRenderer } from 'ngx-markdown';
 import { MarkDownlistaComponent } from './inicio/markdown-lista/markdown-lista.component';
 import { MarkdownService } from './inicio/markdown.service';
+import { CvComponent } from './cv/cv.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { MarkdownSimpleComponent } from './inicio/markdown-simple/markdown-simple.component';
 
 export function markedOptions(): MarkedOptions {
 	const renderer = new MarkedRenderer();
@@ -36,7 +40,11 @@ export function markedOptions(): MarkedOptions {
 	AppComponent,
 	InicioComponent,
 	ColumnaIzquierdaComponent,
-	MarkDownlistaComponent
+	MarkDownlistaComponent,
+	CvComponent,
+	ProyectosComponent,
+	ContactoComponent,
+	MarkdownSimpleComponent
   ],
   imports: [
     BrowserModule,

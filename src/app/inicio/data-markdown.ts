@@ -11,13 +11,13 @@ export const data: ObjetoMarkdownInterface[] = [
 		titulo: "Test post",
 		descripcion: "Priemr post de prueba",
 		fecha: "03/02/2020",
-		archivo: "../assets/markdown/test.md"
+		archivo: "assets/markdown/test.md"
 	},
 	{
 		id: 2,
 		titulo: "Test post 2",
 		descripcion: "Priemr post de prueba 2",
 		fecha: "03/02/2020",
-		archivo: "../assets/markdown/test.md"
+		archivo: "assets/markdown/test.md"
 	}
 ]

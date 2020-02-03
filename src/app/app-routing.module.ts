@@ -2,6 +2,10 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { CvComponent } from './cv/cv.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { MarkdownSimpleComponent } from './inicio/markdown-simple/markdown-simple.component';
 
 
 const routes: Routes = [
@@ -10,7 +14,11 @@ const routes: Routes = [
 		children: [
 			{
 				path: 'lista',
-				component: InicioComponent
+				component: InicioComponent,
+			},
+			{
+				path: ':titulo',
+				component: MarkdownSimpleComponent
 			},
 			{
 				path: '',
@@ -18,6 +26,18 @@ const routes: Routes = [
 				redirectTo: 'lista'
 			}
 		]
+	},
+	{
+		path: 'cv',
+		component: CvComponent
+	},
+	{
+		path: 'proyectos',
+		component: ProyectosComponent
+	},
+	{
+		path: 'contacto',
+		component: ContactoComponent
 	},
 	{
 		path: '',

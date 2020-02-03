@@ -4,6 +4,8 @@ import { data, ObjetoMarkdownInterface } from "./data-markdown";
 @Injectable({ providedIn: "root" })
 export class MarkdownService {
 
+	public postMarkdownSeleccinado: ObjetoMarkdownInterface;
+
 	constructor() {}
 
 	/**
