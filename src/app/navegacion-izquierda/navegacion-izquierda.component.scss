@@ -1,9 +1,10 @@
+@import "../../paleta.scss";
 :host{
 	ul{
 		margin: unset;
 		height: 100%;
 		li{
-			border: 1px solid black;
+			border-bottom: 1px solid $gris1;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -44,7 +45,28 @@
 							margin: 0 0 0 20px;
 						}
 					}
+					&:hover{
+						span{
+							color: $rojoHoverAcciones;
+							i {
+								color: $rojoHoverAcciones;
+							}
+						}
+					}
 				}
+			}
+			&:nth-child(n) > section{
+				height: 100%;
+				display: flex;
+				align-items: center;
+				& > span {
+					display: flex;
+					align-items: center;
+				}
+			}
+			a {
+				color: inherit; /* blue colors for links too */
+				text-decoration: inherit; /* no underline */
 			}
 		}
 	}
