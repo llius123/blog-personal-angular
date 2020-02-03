@@ -11,8 +11,18 @@ const routes: Routes = [
 			{
 				path: 'lista',
 				component: InicioComponent
+			},
+			{
+				path: '',
+				pathMatch: 'full',
+				redirectTo: 'lista'
 			}
 		]
+	},
+	{
+		path: '',
+		pathMatch: 'full',
+		redirectTo: 'inicio/lista'
 	}
 ];
 

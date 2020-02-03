@@ -1,5 +1,9 @@
 <section *ngFor="let item of data">
-	<header>{{item.titulo}}</header>
+	<header>
+		<h4>
+			{{item.titulo}}
+		</h4>
+	</header>
 	<content>{{item.descripcion}}</content>
-	<footer>{{item.fecha}}</footer>
+	<footer class="textoFecha">Fecha: <b>{{item.fecha}}</b></footer>
 </section>
