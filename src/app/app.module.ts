@@ -9,6 +9,8 @@ import { ColumnaIzquierdaComponent } from './navegacion-izquierda/navegacion-izq
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 import { MarkdownModule, MarkedOptions, MarkedRenderer } from 'ngx-markdown';
+import { MarkDownlistaComponent } from './inicio/markdown-lista/markdown-lista.component';
+import { MarkdownService } from './inicio/markdown.service';
 
 export function markedOptions(): MarkedOptions {
 	const renderer = new MarkedRenderer();
@@ -33,7 +35,8 @@ export function markedOptions(): MarkedOptions {
   declarations: [
 	AppComponent,
 	InicioComponent,
-	ColumnaIzquierdaComponent
+	ColumnaIzquierdaComponent,
+	MarkDownlistaComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +49,7 @@ export function markedOptions(): MarkedOptions {
 		  useFactory: markedOptions,
 		}, })
   ],
-  providers: [],
+  providers: [MarkdownService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
