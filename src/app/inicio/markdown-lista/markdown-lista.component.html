@@ -1,4 +1,4 @@
-<section *ngFor="let item of data">
+<section *ngFor="let item of data" (click)="seleccionarUnPost(item)">
 	<header>
 		<h4>
 			{{item.titulo}}

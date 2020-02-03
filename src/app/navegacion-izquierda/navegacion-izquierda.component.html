@@ -1,81 +1,74 @@
 <ul>
 	<li>
 		<section>
-			Foto
+			<img src="../../assets/perfil.jpg" alt="Foto de perfil">
 		</section>
 	</li>
 	<li>
 		<section>
-			Nombre
+			Jesús María Berisa Nuñez
 		</section>
 	</li>
 	<li>
 		<section>
-			Descripcion
+			Full stack developer.
+			<br />Angular/React/Vuejs NodeJs/Java
 		</section>
 	</li>
 	<li>
 		<section>
 			<span>
-				<i class="fab fa-github fa-2x"></i>
+				<i class="fab fa-github fa-2x" (click)="link('github')"></i>
 			</span>
 			<span>
-				<i class="fab fa-linkedin fa-2x"></i>
+				<i class="fab fa-linkedin fa-2x" (click)="link('linkedin')"></i>
 			</span>
 		</section>
 	</li>
 	<li>
-		<section>
+		<section (click)="link('home')">
 			<span>
 				<i class="fas fa-home fa-lg"></i>
 			</span>
 			<span>
 				<b>
-					<a href="www.google.es">
-						Home
-					</a>
+					Home
 				</b>
 			</span>
 		</section>
 	</li>
 	<li>
-		<section>
+		<section (click)="link('cv')">
 			<span>
 				<i class="fas fa-id-card fa-lg"></i>
 			</span>
 			<span>
 				<b>
-					<a href="www.google.es">
-						CV
-					</a>
+					CV
 				</b>
 			</span>
 		</section>
 	</li>
 	<li>
-		<section>
+		<section (click)="link('proyectos')">
 			<span>
 				<i class="fas fa-briefcase fa-lg"></i>
 			</span>
 			<span>
 				<b>
-					<a href="www.google.es">
-						Proyectos
-					</a>
+					Proyectos
 				</b>
 			</span>
 		</section>
 	</li>
 	<li>
-		<section>
+		<section (click)="link('contacto')">
 			<span>
 				<i class="far fa-address-book fa-lg" ></i>
 			</span>
 			<span>
 				<b>
-					<a href="www.google.es" >
-						Contacto
-					</a>
+					Contacto
 				</b>
 			</span>
 		</section>

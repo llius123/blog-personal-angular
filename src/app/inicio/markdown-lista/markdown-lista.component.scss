@@ -2,8 +2,8 @@
 :host{
 	section{
 		padding: 0 0 0 5px;
-		border-bottom: 1px solid $gris1;
 		color: $gris1;
+		cursor: pointer;
 		&:hover{
 			h4, content, footer{
 				color: $rojoHoverAcciones;

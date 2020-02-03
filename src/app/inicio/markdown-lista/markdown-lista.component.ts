@@ -16,4 +16,8 @@ export class MarkDownlistaComponent implements OnInit {
 	ngOnInit(): void {
 		this.data = this.markdownService.obtenerTodosLosMarkdowns();
 	}
+
+	public seleccionarUnPost(post: ObjetoMarkdownInterface){
+		
+	}
 }
