@@ -24,8 +24,8 @@
 				text-align: center;
 			}
 			&:nth-child(4){
-				border-bottom: 1px solid $gris1;
-				border-top: 1px solid $gris1;
+				border-bottom: 1px solid $gris2;
+				border-top: 1px solid $gris2;
 				section{
 					width: 100%;
 					display: flex;
@@ -50,6 +50,7 @@
 					height: 10%;
 					cursor: pointer;
 					span{
+						font-size: 1.5rem;
 						&:nth-child(1){
 							width: 50%;
 							display: flex;
@@ -63,8 +64,10 @@
 						}
 					}
 					&:hover{
-						span{
-							color: $rojoHoverAcciones;
+						span {
+							p{
+								color: $rojoHoverAcciones;
+							}
 							i {
 								color: $rojoHoverAcciones;
 							}

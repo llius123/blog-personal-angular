@@ -6,6 +6,9 @@
 body{
 	font-family: 'Source Sans Pro', light-italic;
 }
+* {
+	color: $colorTexto;
+}
 /*
 Estilos tabla markdown
 */
@@ -57,7 +60,4 @@ markdown {
 	ol ul {
 		list-style-type: circle;
 	}
-}
-section, i{
-	color: $gris1;
 }

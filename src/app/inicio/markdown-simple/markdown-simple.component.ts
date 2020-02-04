@@ -52,10 +52,8 @@ export class MarkdownSimpleComponent implements OnInit {
 		}
 	}
 	scroll(el: string) {
-		console.log(el)
 		el = el.split(' ').join('-');
-		el.charAt(0).toLowerCase();
-		console.log(el)
+		el = el.toLowerCase();
 		let le = document.getElementById(el);
 		le.scrollIntoView({behavior:"smooth"});
 	}
