@@ -1,2 +1,9 @@
-<a (click)="scroll('test')" >test</a>
-<markdown [data]="contenidoMarkdown"></markdown>
+<div>
+	<section>
+		<markdown [data]="contenidoMarkdown"></markdown>
+	</section>
+	<section>
+		<a *ngFor="let item of indice" (click)="scroll(item)" >{{item}}</a>
+		<br />
+	</section>
+</div>

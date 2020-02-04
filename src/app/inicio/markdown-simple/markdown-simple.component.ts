@@ -45,14 +45,17 @@ export class MarkdownSimpleComponent implements OnInit {
 				inicioTitulo++;
 				// Guardo el string resultante en el array de indices
 				this.indice.push(line.substr(inicioTitulo, line.length));
-				console.log(this.indice);
 			} else {
 				// console.log('adios')
 			}
 			// console.log(line);
 		}
 	}
-	scroll(el: any) {
+	scroll(el: string) {
+		console.log(el)
+		el = el.split(' ').join('-');
+		el.charAt(0).toLowerCase();
+		console.log(el)
 		let le = document.getElementById(el);
 		le.scrollIntoView({behavior:"smooth"});
 	}
