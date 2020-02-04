@@ -15,9 +15,9 @@ export const data: ObjetoMarkdownInterface[] = [
 	},
 	{
 		id: 2,
-		titulo: "Test post 2",
-		descripcion: "Priemr post de prueba 2",
-		fecha: "03/02/2020",
-		archivo: "assets/markdown/test.md"
+		titulo: "Creacion de la pagina persona",
+		descripcion: "Como he construido mi propia pagina personal y que queda por añadir",
+		fecha: "04/02/2020",
+		archivo: "assets/markdown/creacion-pagina-personal.md"
 	}
 ]
