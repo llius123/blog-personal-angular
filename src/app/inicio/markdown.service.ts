@@ -1,5 +1,6 @@
 import { Injectable } from "@angular/core";
-import { data, ObjetoMarkdownInterface } from "./data-markdown";
+import { ObjetoMarkdownInterface } from './inicio.component';
+import data from "../../assets/markdown/markdown.indice.json";
 
 @Injectable({ providedIn: "root" })
 export class MarkdownService {
@@ -12,6 +13,7 @@ export class MarkdownService {
 	 * Obtengo todos los datos del Markdown
 	 */
 	public obtenerTodosLosMarkdowns(): ObjetoMarkdownInterface[]{
-		return data;
+		const arrayMarkdown: any = data
+		return arrayMarkdown;
 	}
 }

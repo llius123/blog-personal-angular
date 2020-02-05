@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { MarkdownService } from '../markdown.service';
-import { ObjetoMarkdownInterface } from '../data-markdown';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { ObjetoMarkdownInterface } from '../inicio.component';
 
 @Component({
   selector: "markdown-simple",
