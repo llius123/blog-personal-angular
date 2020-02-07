@@ -21,10 +21,8 @@ Con este plugin para mejorar los estilos de la parte del codigo.
 ##### Librerias-Angular-cli-ghpages
 Ya que github nos hostea paginas web estaticas he añadido esta libreria para construir y desplegar en github.
 Por un lado el comando que he añadido al package.json para desplegar en github
-```json
-"deploy":  "ng deploy --repo=https://github.com/<username>/<nombre repositorio>.git"
 ```
-```json
-"angular-cli-ghpages":  "^0.6.2",
+ng build --prod --base-href https://llius123.github.io/blog-personal-angular/
+npx ngh --dir=dist/blog-personal-angular/
 ```
 
