@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"titulo": "TodoApp",
+		"foto": "assets/TodoAppFoto2.png",
+		"descripcion": "Gestor de tareas y mas funcionalidades. Responsivo y hecho con angular 8+ (front) y nodejs(back)",
+		"descontinuado": false,
+		"archivo": "assets/markdown/proyecto/test.md",
+		"tituloArchivo": "test.md"
+	},
+	{
+		"id": 2,
+		"titulo": "FincaV1",
+		"foto": "assets/foto1.png",
+		"descripcion": "Aplicacion web donde se listan las facturas que tu comunidad de vecinos genera.",
+		"descontinuado": true,
+		"archivo": "assets/markdown/proyecto/test.md",
+		"tituloArchivo": "test.md"
+	},
+	{
+		"id": 3,
+		"titulo": "Generador de facturas",
+		"foto": "assets/no-foto.png",
+		"descripcion": "Aplicacion de escritorio que genera una factura en PDF.",
+		"descontinuado": true,
+		"archivo": "assets/markdown/proyecto/test.md",
+		"tituloArchivo": "test.md"
+	},
+	{
+		"id": 4,
+		"titulo": "BookTracker",
+		"foto": "assets/no-foto.png",
+		"descripcion": "Aplicacion web que gestiona los libros que estas leyendo.",
+		"descontinuado": true,
+		"archivo": "assets/markdown/proyecto/test.md",
+		"tituloArchivo": "test.md"
+	}
+]

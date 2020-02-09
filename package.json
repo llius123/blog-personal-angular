@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng deploy --repo=https://github.com/llius123/blog-personal-angular.git"
+	"deploy": "ng build - -prod –base-href=https://github.com/llius123/blog-personal-angular.git",
+	"github": "ngh --dir=dist/blog-personal-angular"
   },
   "private": true,
   "dependencies": {

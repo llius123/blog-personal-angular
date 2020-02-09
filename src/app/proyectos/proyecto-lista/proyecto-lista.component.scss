@@ -1,0 +1,45 @@
+@import "../../../paleta.scss";
+:host{
+	section{
+		display: flex;
+		flex-direction: row;
+		content{
+			display: flex;
+			flex-direction: column;
+			cursor: pointer;
+			margin: 5px;
+			padding: 5px;
+			border: 1px solid $gris2;
+			border-radius: 5px;
+			width: 250px;
+			header{
+				width: 100%;
+				height: 40%;
+				display: flex;
+				justify-content: center;
+				img {
+					height: 100px;
+				}
+			}
+			body{
+				height: 40%;
+			}
+			footer{
+				height: 20%;
+				display: flex;
+				align-items: flex-end;
+				span{
+					color:white;
+					padding: 3px;
+					border-radius: 5px;
+				}
+				.continuado{
+					background: $verdeOn;
+				}
+				.descontinuado{
+					background: $rojoOn;
+				}
+			}
+		}
+	}
+}

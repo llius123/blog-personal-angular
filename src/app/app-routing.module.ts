@@ -6,6 +6,8 @@ import { CvComponent } from './cv/cv.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { MarkdownSimpleComponent } from './inicio/markdown-simple/markdown-simple.component';
+import { ProyectoListaComponent } from './proyectos/proyecto-lista/proyecto-lista.component';
+import { MarkdownProyectoComponent } from './proyectos/markdown-proyecto/markdown-proyecto.component';
 
 
 const routes: Routes = [
@@ -33,7 +35,21 @@ const routes: Routes = [
 	},
 	{
 		path: 'proyectos',
-		component: ProyectosComponent
+		children: [
+			{
+				path: 'lista',
+				component: ProyectoListaComponent
+			},
+			{
+				path: ':titulo',
+				component: MarkdownProyectoComponent
+			},
+			{
+				path: '',
+				pathMatch: 'full',
+				redirectTo: 'lista'
+			}
+		]
 	},
 	{
 		path: 'contacto',

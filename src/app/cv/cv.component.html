@@ -1,3 +1,7 @@
-<div class="section">
-	<pdf-viewer [src]="pdfSrc" [render-text]="true"	style="display: block;"></pdf-viewer>
-</div>
+<section>
+	<button class="principal" (click)="descargarPDF()">
+		<i class="fas fa-file-download"></i>
+		Descargar
+	</button>
+	<pdf-viewer [src]="pdfSrc" [render-text]="true"	style="display: block;" ></pdf-viewer>
+</section>

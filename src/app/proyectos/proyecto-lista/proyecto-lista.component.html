@@ -1,0 +1,19 @@
+<section >
+	<content *ngFor="let proyecto of proyectos" (click)="proyectoSeleccionado(proyecto)">
+		<header>
+			<img src="{{proyecto.foto}}">
+		</header>
+		<body>
+			<h5>{{proyecto.titulo}}</h5>
+			<p>{{proyecto.descripcion}}</p>
+		</body>
+		<footer>
+			<span *ngIf="proyecto.descontinuado" class="descontinuado">
+				Estado: Descontinuado
+			</span>
+			<span *ngIf="!proyecto.descontinuado" class="continuado">
+				Estado: En desarollo
+			</span>
+		</footer>
+	</content>
+</section>

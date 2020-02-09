@@ -17,6 +17,9 @@ import { MarkdownSimpleComponent } from './inicio/markdown-simple/markdown-simpl
 //Librerias externas
 import { MarkdownModule, MarkedOptions, MarkedRenderer } from 'ngx-markdown';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { ProyectoListaComponent } from './proyectos/proyecto-lista/proyecto-lista.component';
+import { MarkdownProyectoComponent } from './proyectos/markdown-proyecto/markdown-proyecto.component';
+import { MarkdownProyectoService } from './proyectos/markdown-proyecto.service';
 
 //Configuracion del markdown
 export function markedOptions(): MarkedOptions {
@@ -45,7 +48,9 @@ declarations: [
 	CvComponent,
 	ProyectosComponent,
 	ContactoComponent,
-	MarkdownSimpleComponent
+	MarkdownSimpleComponent,
+	ProyectoListaComponent,
+	MarkdownProyectoComponent
 ],
 imports: [
 	BrowserModule,
@@ -59,7 +64,7 @@ imports: [
 		}, }),
 	PdfViewerModule
 ],
-providers: [MarkdownService],
+providers: [MarkdownService, MarkdownProyectoService],
 bootstrap: [AppComponent]
 })
 export class AppModule {}

@@ -1,0 +1,12 @@
+<div>
+	<section>
+		<markdown [data]="contenidoMarkdown"></markdown>
+	</section>
+	<section>
+		<h3>Indice</h3>
+		<body>
+			<a *ngFor="let item of indice" (click)="scroll(item)" >{{item}}</a>
+			<br />
+		</body>
+	</section>
+</div>
