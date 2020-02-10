@@ -32,7 +32,7 @@
 		"foto": "assets/no-foto.png",
 		"descripcion": "Aplicacion web que gestiona los libros que estas leyendo.",
 		"descontinuado": true,
-		"archivo": "assets/markdown/proyecto/test.md",
-		"tituloArchivo": "test.md"
+		"archivo": "assets/markdown/proyecto/BookTracker.md",
+		"tituloArchivo": "BookTracker.md"
 	}
 ]
