@@ -23,8 +23,8 @@
 		"foto": "assets/no-foto.png",
 		"descripcion": "Aplicacion de escritorio que genera una factura en PDF.",
 		"descontinuado": true,
-		"archivo": "assets/markdown/proyecto/test.md",
-		"tituloArchivo": "test.md"
+		"archivo": "assets/markdown/proyecto/GestorFacturas.md",
+		"tituloArchivo": "GestorFacturas.md"
 	},
 	{
 		"id": 4,

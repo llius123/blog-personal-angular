@@ -39,3 +39,6 @@ Tambien estuvo muy interesante ya que me encontre con varios problemas con la sy
 3. Aprender a usar typeorm
 ## Estado
 ~~Descontinuado~~
+## Links
+[Frontal](https://github.com/llius123/todoAPP-web-front-end)
+[Back](https://github.com/llius123/todoAPP-web-back-end)
