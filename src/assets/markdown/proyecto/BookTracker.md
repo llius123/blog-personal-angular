@@ -1,12 +1,12 @@
-﻿# BookTracker
-## Tecnologias que he usado
-Para el frontal he usado 7+ y para el back-end nodejs.
-### Frontal
+﻿### BookTracker
+
+#### Frontal
 El frontal no esta muy desarrollado ya que lo importante era el back-end pero aun asi he usado:
 1. ngx-cookie-service [npm](https://www.npmjs.com/package/ngx-cookie-service)
 2. primeng [pagina oficial](https://www.primefaces.org/primeng/#/)
 3. Angular 7
-### Back-end
+
+#### Back-end
 He usado:
 1. nodejs
 
@@ -28,17 +28,22 @@ Las siguientes librerias:
 "typescript": "^3.4.3"
 ```
 > He añadido tambien los @types ya que este back-end esta hecho con typescript
-## Descripcion del proyecto
+
+#### Descripcion del proyecto
 Mi idea principal era hacer una aplicacion web que recopilara datos de distintas bases de datos de distintas paginas web y luego añadirlas a la mia.
 La idea al principio era interesante ya que para hacer esto tuve que investigar como transformar datos de distintas bases de datos (json, xml etc..) a objetos js( en esta caso typescript ) y luego insertarlos en mi base de datos.
 Tambien estuvo muy interesante ya que me encontre con varios problemas con la syncronia, ya que tenia que estar esperando la respuesta de google books (por ejemplo) luego tratarla, insertarla en mi base de datos y luego devolver al front.
-## Cosas interesantes que he aprendido
+
+#### Cosas interesantes que he aprendido
 1. Lo mas interesante a sido añadir typescript a node.
 > Typescript me parece muy interesante ya que me estructura la cabeza mucho mas
 2. Transformar datos de xml y otros formatos que no sean json
 3. Aprender a usar typeorm
-## Estado
+
+#### Estado
 ~~Descontinuado~~
-## Links
+
+#### Links
 [Frontal](https://github.com/llius123/todoAPP-web-front-end)
+
 [Back](https://github.com/llius123/todoAPP-web-back-end)

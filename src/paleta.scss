@@ -10,14 +10,6 @@ $rojoHoverAcciones: #d94e67;
 $verdeOn: #6fc36f;
 $rojoOn: #e64361;
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 400;
-	line-height: 1.3;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-	font-weight: inherit;
-}
 
 h1 {
 	font-size: 4.2rem;
@@ -54,3 +46,16 @@ h6 {
 	line-height: 110%;
 	margin: 0.7666666667rem 0 0.46rem 0;
 }
+a{
+	color: $rojoHoverAcciones;
+}
+
+img{
+	width: 400px;
+	margin: 10px 0 10px 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+//Cambio el background del texto seleccionado
+::selection { background: $rojoHoverAcciones; color:white; }
