@@ -2,14 +2,14 @@
 
 #### Frontal
 1. Angular 7
-2. primeng [pagina oficial](https://www.primefaces.org/primeng/#/)
+2. Primeng
 3. jsPDF (Para descargar pdfs)
 
 #### Back-end
 1. Java (Framework spring)
 
 #### Descripcion del proyecto
-Esta aplicacion fue desarrollado como proyecto final de Grado Superior de Desarrollo de aplicaciones web, por el cual consegui un **10 en la parte frontal y un 10 en la parte back**.
+Esta aplicacion fue desarrollado como proyecto final de Grado Superior de Desarrollo de aplicaciones web, por el cual consegui un **10 en la parte frontal y un 10 en la parte back**. <br />
 Es una aplicacion a la que le dedique muchas horas ya que era algo que queria hacer perfecto ya que queria conseguir el 10 como nota final.
 
 Esta aplicacion tiene varias funcionalidades: <br />
@@ -44,15 +44,16 @@ La mas importante es que consta de 2 perfiles, el de administrador y el de vecin
 2. Aprender a usar el framework de java Spring.
 3. Mejorar mis conocimientos sobre mysql.
 4. Aprender a desplegar la aplicacion en Ubuntu 16.
-	> Esta aplicacion la desplegue en un ubuntu server en DigitalOcean, asi que tube que aprender a compilar el frontal y el back.
+	> Esta aplicacion la desplegue en un ubuntu server en DigitalOcean, gracias a esto aprendi a solucionar varios errores de despliegue.
 	* Aparte de solucionar errores de compilacion tambien aprendi a poder conectarme a la bbdd desde fuera de la maquina donde esta alojado la base de datos mysql.
 
 #### Estado
-~~Descontinuado~~
+~~Descontinuado~~ <br />
+> _En verdad yo lo considero acabado, no descontinuado.  <br/>
+> La idea en si no esta mal pero para hacer esta aplicacion en serio se tendrian que cambiar varias cosas de la base de datos y estructurar todo el proyecto de otra forma_.
 
 #### Links
-[Frontal](https://github.com/llius123/fincaV1.webapplication)
-
+[Frontal](https://github.com/llius123/fincaV1.webapplication) <br />
 [Back](https://github.com/llius123/fincaV1.webapplication)
 
 [adminImg1]: https://i.imgur.com/VR7BLZv.png "Imagen 1 listas de administrador"

@@ -14,10 +14,8 @@ export interface ObjetoMarkdownInterface {
   styleUrls: ["./inicio.component.scss"]
 })
 export class InicioComponent implements OnInit {
-	public test;
 
 	ngOnInit(): void {
-		this.test = require("raw-loader!../../assets/markdown/test.md").default;
 	}
 
 

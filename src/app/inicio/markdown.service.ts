@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { ObjetoMarkdownInterface } from './inicio.component';
-import data from "../../assets/markdown/markdown.indice.json";
+import data from "../../assets/markdown/blog/markdown.indice.json";
 
 @Injectable({ providedIn: "root" })
 export class MarkdownService {

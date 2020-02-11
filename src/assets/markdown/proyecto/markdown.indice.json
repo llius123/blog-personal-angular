@@ -5,8 +5,8 @@
 		"foto": "assets/TodoAppFoto2.png",
 		"descripcion": "Gestor de tareas y mas funcionalidades. Responsivo y hecho con angular 8+ (front) y nodejs(back)",
 		"descontinuado": false,
-		"archivo": "assets/markdown/proyecto/test.md",
-		"tituloArchivo": "test.md"
+		"archivo": "assets/markdown/proyecto/TodoApp.md",
+		"tituloArchivo": "TodoApp.md"
 	},
 	{
 		"id": 2,
