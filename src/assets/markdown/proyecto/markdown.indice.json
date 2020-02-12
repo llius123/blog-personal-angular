@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"titulo": "TodoApp",
-		"foto": "assets/TodoAppFoto2.png",
+		"foto": "assets/markdown/proyecto/img/TodoAppFoto2.png",
 		"descripcion": "Gestor de tareas y mas funcionalidades. Responsivo y hecho con angular 8+ (front) y nodejs(back)",
 		"descontinuado": false,
 		"archivo": "assets/markdown/proyecto/TodoApp.md",
@@ -11,7 +11,7 @@
 	{
 		"id": 2,
 		"titulo": "FincaV1",
-		"foto": "assets/foto1.png",
+		"foto": "assets/markdown/proyecto/img/inicioAdminPerfil.png",
 		"descripcion": "Aplicacion web donde se listan las facturas que tu comunidad de vecinos genera.",
 		"descontinuado": true,
 		"archivo": "assets/markdown/proyecto/FincaV1.md",

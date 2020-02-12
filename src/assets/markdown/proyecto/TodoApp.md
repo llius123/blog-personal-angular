@@ -1,4 +1,4 @@
-### BookTracker
+### TodoApp
 
 #### Frontal
 1. Angular 7
@@ -15,6 +15,10 @@
 #### Descripcion del proyecto
 Es una simple aplicacion de gestion de tareas como las 10000 que hay en internet. <br />
 La diferencia es que esta aplicacion no esta enfocada a sacar beneficio o para ser vendida, si no para hacerla a mi medida, crear funcionalidades que necesite, adaptarla con mis colores etc...<br />
+
+<img src="assets/markdown/proyecto/img/TodoAppFoto1.png" class="imagen" alt="Markdown Monster icon"/>
+
+<img src="assets/markdown/proyecto/img/TodoAppFoto2.png" class="imagen" alt="Markdown Monster icon"/>
 
 #### Cosas interesantes que he aprendido y que estoy aprendiendo
 1. Despliegue en una raspberry
@@ -66,3 +70,5 @@ y mas tecnologias, ya que si esto continua desarrollandose al final tendre que a
 * seguridad
 * mejor encriptacion de datos
 * mas conocimiento sobre ubuntu. 
+
+[TodoAppImg1]: https://i.imgur.com/VR7BLZv.png "Imagen 1 listas de administrador"
