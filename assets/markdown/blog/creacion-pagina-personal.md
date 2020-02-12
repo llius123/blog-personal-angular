@@ -26,3 +26,15 @@ ng build --prod --base-href https://llius123.github.io/blog-personal-angular/
 npx ngh --dir=dist/blog-personal-angular/
 ```
 
+#### TODO
+Por ahora la pagina web esta muy verde. <br />
+Por un lado ya hay un sistema mas o menos sencillo para añadir nuevo contenido a la pagina en forma de blogs. <br /> 
+Pero aun falta mucho mas por mejorar asi que aqui describo las futuras tareas que tengo pensado hacer para mejorar la calidad de la pagina web.
+* [ ] Hacer es sitio responsivo.
+* [ ] Mejorar los estilos del markdown.
+	> No me gusta como estan ahora mismo, sobre todo los titulos
+* [ ] Crear un nuevo indice que sirva para listar todos los posts
+	> Actualmente cuando seleccionas un post para volver atras tienes que seleccionar el icono de navegacion de la izquierda y no se porque pero no me acaba de gustar, hay que buscar una solucion para esto.
+* [ ] Añadir un apartado para mis apuntes sobre programacion
+	> Esto va a costar mas ya que tengo que migrar mis apuntes que estan en OneDrive a archivos de tipo .md y seguramente va a llevar tiempo.
+* [ ] Crear un apartado para los retos/tareas que me he propuesto hacer este 2020.
